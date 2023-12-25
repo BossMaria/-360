@@ -1,0 +1,150 @@
+@media screen and (max-width:1024px) {
+    /* 1 блок */
+    .vybor{
+        font-size: 50px;
+    }
+    /* .line{
+        margin-top: -90%;
+    }
+    .line1{
+        margin-top: -80%;
+    } */
+    /* 2 блок */
+    .line3{
+        width: 100%;
+        height: 120px;
+    }
+    /* 3 блок */
+    /* .block3{
+        height: 100vh;
+    } */
+    .vybor1{
+        font-size: 50px;
+        /* width: 50%;
+        display: none; */
+    }
+
+    .edettext{
+        display: none;
+    }
+    .text1div{
+        width: 100%;
+        /* height: 50vh; */
+    }
+   
+    .text1{
+        font-size: 15px;
+    }
+
+
+    /* 4 БЛОК  */
+    .h1{
+        font-size: 25px;
+    }
+    .p2{
+        font-size: 15px;
+    }
+    /* .block4{
+        width: 100%;
+        height: 60vh;
+        
+    } */
+    .line7{
+        width: 41%;
+        height: 3%;
+  
+    }
+    .leftsidetext{
+         height: 60vh;
+     }
+
+    .rightside{
+         height: 60vh;
+        
+    }
+
+}
+
+@media screen and (max-width:768px) {
+/* 3 блок */
+    .text1{
+        font-size: 13px;
+    }
+    /* 4 БЛОК  */
+    .h1{
+        font-size: 25px;
+    }
+    .p2{
+        font-size: 13px;
+    }
+     /* 7 БЛОК  */
+     .block7{
+        
+        height: 40vh;
+        
+    }
+     /* 9 БЛОК  */
+     .text3{
+        font-size: 20px;
+    }
+    .text4{
+        font-size: 20px;
+    }
+}
+
+@media screen and (max-width:414px) {
+    /* 3 блок */
+    .text1{
+        font-size: 10px;
+    }
+    /* 4 БЛОК  */
+    .h1{
+        font-size: 20px;
+    }
+    .p2{
+        font-size: 10px;
+    }
+    .line7{
+        width: 41%;
+        height: 2%;
+        margin-bottom: 23%;
+  
+    }
+    /* 7 БЛОК  */
+    .block7{
+
+        height: 20vh;
+        
+    }
+     /* 9 БЛОК  */
+     .text3{
+        font-size: 15px;
+    }
+    .text4{
+        font-size: 15px;
+    }
+
+}
+
+@media screen and (max-width:360px){
+    /* 4 БЛОК  */
+    .line7{
+        width: 41%;
+        height: 2%;
+        margin-bottom: 28%;
+  
+    }
+    /* 7 БЛОК  */
+    .block7{
+        
+        height: 20vh;
+        
+    }
+    /* 9 БЛОК  */
+    .text3{
+        font-size: 15px;
+    }
+    .text4{
+        font-size: 15px;
+    }
+}

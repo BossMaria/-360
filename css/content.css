@@ -1,0 +1,483 @@
+
+@font-face {
+    font-family: "GT-Eesti-Pro-Display-Bold";
+    src: url(../font/GT-Eesti-Pro-Display-Bold.otf) format(truetype);
+    font-weight: bold;
+    font-style: bold;
+    
+}
+@font-face {
+    font-family: "GT-Eesti-Pro-Display-Medium";
+    src: url(../font/GT-Eesti-Pro-Display-Medium.otf) format(truetype);
+    font-weight: medium;
+    font-style: medium;
+}
+@font-face {
+    font-family: "GT-Eesti-Pro-Display-Regular";
+    src: url(../font/GT-Eesti-Pro-Display-Regular.otf) format(truetype);
+    font-weight: normal;
+    font-style: normal;
+}
+body{
+    background: #181A20;
+}
+/* 1 БЛОК */
+
+/* линии на видео */
+.logo1{
+    position: absolute;
+    width: 20%;
+    margin-left: 66vw;
+    margin-top: 80vh;
+}
+.line{
+    position: absolute;
+    width: 150%;
+    height: 1%;
+    background-color: #ABC2BA;
+    rotate: -170deg;
+    animation: lin 5s linear infinite;
+margin-top: -50%;
+margin-left: -20%;
+}
+
+@keyframes lin {
+    0%{ height: 1%;}
+    50%{
+        height: 6%;
+    }
+    100%{ height: 1%;}
+}
+.line1{
+    position: absolute;
+    width: 150%;
+    height: 1%;
+    background-color: #E0F416;
+    rotate: -25deg;
+    animation: lin1 10s linear infinite;
+margin-top: -40%;
+margin-left: -20%;
+}
+@keyframes lin1 {
+    0%{ height: 1%;}
+    50%{
+        height: 6%;
+    }
+    100%{ height: 1%;}
+}
+
+.block1{
+    width: 90%;
+    overflow: hidden;
+    position: relative;
+    
+    
+}
+.video{
+    width: 100%;
+    
+}
+/* агенство выбора бегущая строка */
+.sideblock{
+    display: block;
+    width: 10vw;
+
+    background-color: #ABC2BA;
+    overflow: hidden;
+    
+}
+.vybor{
+    font-size: 80px;
+    color: #181A20;
+    font-family: "GT-Eesti-Pro-Display-Medium";
+    font-weight: medium;
+    rotate: 90deg;
+    animation: vyb 2s linear infinite;
+    white-space: nowrap;
+    
+}
+.vybor:hover{
+    animation-play-state: paused;
+    color: #E0F416;
+}
+@keyframes vyb{
+    0% {transform: translateX(-1091px)}
+    100% {transform: translateX(0)}
+}
+.block1gen{
+    display: flex;
+    width: 100%;
+
+}
+
+/* 2 БЛОК */
+
+.block2{
+    width: 100%;
+    height: 100%;
+    position: relative;
+    display: block;
+}
+
+.line3{
+    width: 100%;
+    height: 250px;
+    display: block;
+    position: relative;
+    display: block;
+    background: url("../img/linepixels.png");
+    animation: walk 0.5s steps(1) infinite;
+}
+
+@keyframes walk {
+    0% {background-position: 900px;}
+    50% {background-position: 1800px;}
+    100% {background-position: 2700px;}
+}
+
+/* 3 БЛОК */
+
+.block3{
+    width: 100%;
+    height: 100%;
+    position: relative;
+    display: flex;
+    overflow: hidden;
+    background: #181A20;
+}
+/* левая часть  */
+.d3{
+    background: #181A20;
+    width: 100%;
+    overflow: hidden;
+    
+    /* z-index: 100; */
+}
+.image{
+    width: 100%;
+    animation: ln 10s linear infinite;
+}
+@keyframes ln{
+    0%{ transform: scale(1);  }
+    50%{ transform: scale(1.5);}
+    100%{ transform: scale(1); }
+}
+    
+   
+/* правая часть */
+
+.sideblock2{
+width: 100%;
+background-size: contain;
+}
+.tdiv{
+    display: flex;
+    width: 100%;
+    height: 40%;
+}
+/* текст */
+.text1div{
+    /* position: relative; */
+    background: #ABC2BA;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+}
+.text2div{
+    width: 70%;
+}
+.text1{
+    font-family: "GT-Eesti-Pro-Display-Regular";
+    font-size: 25px;
+    z-index: 100;
+    
+}
+
+/* бегущая строка */
+.edettext{
+    background-color: #E0F416;
+    width: 20vw;
+    height: 60vh;
+    overflow: hidden;
+}
+
+.vybor1{
+    font-size: 40px;
+    color: #181A20;
+    font-family: "GT-Eesti-Pro-Display-Medium";
+    font-weight: medium;
+    rotate: 90deg;
+    animation: vyb1 2s linear infinite;
+    white-space: nowrap;
+
+}
+.vybor1:hover{
+    animation-play-state: paused;
+    color: #ABC2BA;
+}
+@keyframes vyb1{
+    0% {transform: translateX(-1091px)}
+    100% {transform: translateX(0)}
+}
+/* нижняя часть с линиями */
+.blockline{
+    width: 100%;
+    overflow: hidden;
+   
+}
+
+.line4{
+    width: 100%;
+    height: 100%;
+    display: block;
+    
+}
+
+
+.line5{
+    position: absolute;
+    width: 150%;
+    height: 1%;
+    background-color: #E0F416;
+    rotate: -170deg;
+    animation: lin5 2s linear infinite;
+margin-top: 20%;
+margin-left: -10%;
+
+}
+@keyframes lin5{
+    100% {transform: translateX(0px)}
+    0% {transform: translateX(-2500px)}
+}
+
+/* 4 БЛОК  */
+
+.block4{
+    width: 100%;
+    /* height: 100vh; */
+    display: flex;
+    overflow: hidden;
+    
+}
+
+.leftsidetext{
+    display: flex;
+    width: 40vw;
+    background: #ABC2BA;
+    /* height: 100vh; */
+    overflow: hidden;
+    justify-content: center;
+    align-items: center;
+    
+    
+}
+.p2{
+    font-family: "GT-Eesti-Pro-Display-Regular";
+    font-size: 25px;
+    /* position: absolute; */
+}
+.h1{
+    font-family: "GT-Eesti-Pro-Display-Medium";
+    font-size: 70px;
+    margin-bottom: 30%;
+    /* position: absolute; */
+}
+.p2div{
+    position: absolute;
+    width: 30vw;
+    display: block;
+    
+}
+.line7{
+    background: #181A20;
+    width: 41%;
+    height: 5%;
+    rotate: 174deg;
+    position: absolute;
+    overflow: hidden;
+    margin-bottom: 10%;
+}
+.line6{
+    /* width: 100%; */
+    height:  100%;
+    margin-left: -20%;
+    overflow: hidden;
+    
+    
+}
+
+.rightside{
+    /* position: relative; */
+    /* width: 60%; */
+    overflow: hidden;
+    background: #181A20;
+    width: 60vw;
+    /* height: 100vh; */
+    
+}
+.rightside:hover{
+    animation-play-state: paused;
+    background: #ABC2BA;
+}
+.numbers{
+    display: flex;
+    animation: num 3s linear infinite;
+    white-space: nowrap;
+
+
+    
+}
+
+@keyframes num{
+    100% {transform: translateX(0)}
+    0% {transform: translateX(-4000px)}
+}
+
+/* 5 БЛОК */
+.block5{
+    /* width: 100%; */
+    /* height: 100vh; */
+    display: flex;
+    overflow: hidden;
+}
+.photodiv{
+    width: 50%;
+    overflow: hidden;
+    /* height: 100vh; */
+}
+.photoan{
+    width: 100%;
+display: block;
+    
+}
+.logodiv{
+    width: 50%;
+display: block;
+}
+.logo{
+    width: 100%;
+    /* height: 100vh; */
+    overflow: hidden;
+    position: relative;
+}
+.logogif{
+width: 100%;
+    display: block;
+}
+.yellowfr,.bluefr {
+    width: 100%;
+    /* height: 100vh; */
+    position: absolute;
+    margin-top: -83.6%;
+    transition: opacity 0.3s ease;
+}
+
+.bluefr {
+    opacity: 0; /* Скрыть вторую картинку изначально */
+}
+
+.logo:hover .yellowfr{
+    opacity: 0; /* При наведении на контейнер, первая картинка становится прозрачной */
+}
+
+.logo:hover .bluefr{
+    opacity: 1; /* При наведении на контейнер, первая картинка становится прозрачной */
+}
+/* 6 БЛОК */
+.block6{
+    width: 100%;
+    
+    position: relative;
+    overflow: hidden;
+}
+.puty{
+    width: 100%;
+    height: 100%;
+}
+/* 7 БЛОК */
+.block7{
+    width: 100%;
+    height: 50vh;
+    background: #E0F416;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: -1%;
+}
+
+.block7:hover{
+    background: #ABC2BA;
+}
+
+.dfour{
+    width: 90%;
+}
+
+/* 8 БЛОК */
+
+.block8{
+    display: flex;
+}
+.star{
+    display: flex;
+    width: 40%;
+}
+.dandiv{
+    display: flex;
+    width: 60%;
+    position: relative;
+    overflow: hidden;
+}
+
+.dan{
+    width: 100%;
+}
+.union{
+    position: absolute;
+    animation: uni 2.5s infinite ease-out;
+}
+@keyframes uni {
+    0% {transform: translate( 100px, 800px)}
+    20% {transform: translate( 500px, 0px)}
+    40% {transform: translate( 400px, 800px)}
+    80% {transform: translate( 800px, 200px)}
+    100% {transform: translate( 200px, 0px)}
+    }
+/* 9 БЛОК */
+.block9{
+    position: relative;
+    width: 100%;
+    height: 15vh;
+    background: #ABC2BA;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.block9:hover{
+    background: #E0F416;
+}
+
+.text3{
+    font-family: "GT-Eesti-Pro-Display-Regular";
+    font-size: 25px;
+    margin-left: 10vw;
+}
+.text4{
+    font-family: "GT-Eesti-Pro-Display-Regular";
+    font-size: 25px;
+    margin-right: 10vw;
+}
+
+/* 10 БЛОК */
+
+.bllock10{
+    width: 100%;
+}
+.animline{
+    width: 100%;
+}
+
+
