@@ -315,6 +315,9 @@ margin-left: -10%;
     background: #181A20;
     width: 60vw;
     /* height: 100vh; */
+    display: flex;
+    align-items: center;
+    
     
 }
 .rightside:hover{
